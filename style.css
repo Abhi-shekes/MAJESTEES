@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gentium Plus', serif;;
+}
+#logo{
+    width: 200px;
+    height: auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: 600;
+    color: black; 
+    transition: 0.3s; 
+}
+#navbar li a:hover{
+    color: violet;
+    text-decoration: underline;
+    
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+#hero{
+    background-image:url("image/background.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top 25% right 0 ;
+    padding: 50px 0 80px 80px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#hero button{
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    background-color: #24f3ff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    margin:10px 0;
+    transition: 0.5s;
+
+}
+#hero a{
+    text-decoration: none;
+}
+#hero button:hover{
+    padding: 12px ;
+    font-size: medium;
+    background-color: #0ee5ed
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 35px;
+}
+#feature{
+    padding: 40px 80px;
+    width: 100%;
+   
+}
+#feature img{
+    width: 200px;
+    height: auto;
+}
+.box1{
+    text-align: center;
+ 
+}
+#feature .box1{
+    width: 270px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 25px 25px 24px rgba(0, 0, 0, 0.03);
+    border: 2px solid #9fbaa3;
+    border-radius: 8px;
+    margin: 0 10px;
+    
+}
+#feature .box1:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+#feature h3{
+    background-color: #24f3ff;
+}
+.products{
+    padding: 40px 80px;
+    width: 100%;
+   
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 50px;
+    
+    
+}
+.products img{
+    width: 250px;
+    height: auto;
+    padding: 0 10px 0px 10px;
+}
+.products img:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.products img:hover ~ .des1{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.des1{
+    padding: 20px;
+}
+#product_heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    padding-bottom: 0;
+
+}
+.des1 span{
+    font-size: large;
+    background-color: #24f3ff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.productline2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 50px;
+    padding: 40px 80px;
+    width: 100%;
+}
+.productline2 img{
+    width: 250px;
+    height: 306px;
+    padding: 0 10px 0px 10px;
+
+}
+.productline2 img:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.productline2 img:hover ~ .des1{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.offer{
+    
+    background-image: url("image/offer.jpg");
+    padding: 120px 0 100px 0;
+    color:whitesmoke;
+     
+    
+}
+.offer h3{
+    font-weight: bolder;
+    font-size: xxx-large;
+    text-align: center;
+}
+.offer p{
+    font-weight: 500;
+    text-align: left;
+    font-size: large;
+    padding-left: 200px;
+}
+
+#footer_logo{
+    width: 300px;
+    padding: 0 0 0 30px;
+    margin: 10px;
+}
+#social{
+    padding: 30px 0 0 20px;
+}
+#social h1{
+    font-family: sans-serif;
+    padding: 0 0 0 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+#social i{
+    font-size: 20px;
+    padding: 0 0 0 5px;
+    margin-left: 40px;
+    align-items: baseline;
+    color: white;
+}
+.footer{
+    background-image: url("image/footer_bg.jpg");
+}
+.footers{
+    display: flex;
+    padding: 30px;
+    margin: 20px 0 0 0 ;
+}
+.contact{
+    color: white;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.contact h1{
+    color: rgb(241, 150, 14);
+}
+.contact h3{
+    color: rgb(241, 223, 19);
+}
+.address{
+    padding: 20px 0 0 150px;
+    color: white;
+    width: 400px;
+}
+.address h2{
+    color: rgb(241, 150, 14);
+}
+.owner h2{
+    color: rgb(241, 150, 14);
+    padding: 20px 0 0 150px;
+}
+.owner i{
+    color: white;
+
+}
